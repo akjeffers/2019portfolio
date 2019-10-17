@@ -44,9 +44,9 @@
   }
   
   .modal {
-    /* position: relative; */
+    position: relative;
     /*must set position: relative for the body to remain behind the modal*/
-    /* background-color: #3D3D3D;
+    background-color: #3D3D3D;
     max-width: 600px;
     min-width: 150px;
     padding: 15px;
@@ -58,7 +58,7 @@
     opacity: 0;
     cursor: pointer;
     box-shadow: 0 0 5px 1px grey;
-    transition: all 0.25s ease; */
+    transition: all 0.25s ease;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,7 +68,7 @@
     width: 24rem;
     border-radius: 0.5rem;
     font-family: "Montserrat", "Quicksand", sans-serif;
-    color: #524948;
+   
   }
   
   .modal::before {
@@ -90,5 +90,5 @@
   
   .modalText {
     font-family: 'Source Sans Pro', Verdana, Sans-Serif;
-    color: white;
+    color: #524948;
   }
