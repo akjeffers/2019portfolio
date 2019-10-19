@@ -5,7 +5,8 @@ var open = function() {
   modal.style.visibility = 'visible';
   modal.style.marginTop = '50px';
   modal.style.opacity = '1';
-  button.style.opacity = '0';
+  modal.style.radius = '5px';
+
 };
 
 button.addEventListener('click', open, false);
