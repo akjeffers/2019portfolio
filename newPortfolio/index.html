@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/minireset.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 </head>
 <body>
@@ -33,7 +34,11 @@
         <hr class="hr">
         <div class="description">
           <p>
-            <a class="button" href="#">About Me</a>
+            <button class="trigger" type="button">About Me</button>
+            <div class="modal">
+              <h2 class="modalHeader">About Me</h2>
+              <p class="modalText"><br>&times;</p>
+            </div>
           </p>
     <br>
         <p> 
@@ -42,6 +47,7 @@
         <br>
         <a class="button" href="#">Projects</a>
 
+        
    </div>
         <div class="contact">
                 <ul class="social">
@@ -58,11 +64,12 @@
                     </li>
                       </ul>
           <!-- <a class="button" href="mailto:youremail@example.com">
-            Get in touch
+            Get in touchh
           </a> -->
         
         </div>
       </main>
     </div>
+    <script src="js/modal.js"></script>
 </body>
 </html>
