@@ -55,9 +55,9 @@
     border-radius: 10px;
     z-index: 4;
     visibility: hidden;
-    opacity: 0;
+    /* opacity: 0; */
     cursor: pointer;
-    box-shadow: 0 0 5px 1px grey;
+    /* box-shadow: 0 0 2px 1px #fff; */
     transition: all 0.25s ease;
     position: absolute;
     top: 50%;
@@ -85,7 +85,7 @@
   
   .modalHeader{
     font-family: 'Montserrat', Verdana, Sans-Serif;
-    color: white;
+    color: #524948;
   }
   
   .modalText {

@@ -6,6 +6,7 @@ var open = function() {
   modal.style.marginTop = '50px';
   modal.style.opacity = '1';
   modal.style.radius = '5px';
+ 
 
 };
 
