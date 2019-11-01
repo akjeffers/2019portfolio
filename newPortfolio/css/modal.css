@@ -13,6 +13,7 @@
     vertical-align: top;
     white-space: nowrap;
     will-change: box-shadow, transform;
+    box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
   }
   
   .trigger:hover {
