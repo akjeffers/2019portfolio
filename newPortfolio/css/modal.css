@@ -48,7 +48,7 @@
     position: absolute;
     /*must set position: relative for the body to remain behind the modal*/
     background-color: #3D3D3D;
-    max-width: 600px;
+    max-width: 600x;
     min-width: 150px;
     padding: 15px;
     text-align: center;
@@ -87,9 +87,17 @@
   .modalHeader{
     font-family: 'Montserrat', Verdana, Sans-Serif;
     color: #524948;
+    
   }
   
   .modalText {
-    font-family: 'Source Sans Pro', Verdana, Sans-Serif;
+    font-family: 'Montserrat', Verdana, Sans-Serif;
     color: #524948;
+    text-align: center;
+    font-size: small;
+  }
+  
+  .modalX {
+   text-align: right;
+   color: #000;
   }
