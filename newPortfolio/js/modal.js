@@ -1,6 +1,8 @@
 var modal = document.getElementsByClassName('modal')[0];
 var button = document.getElementsByClassName('trigger')[0];
 
+
+
 var open = function() {
   modal.style.visibility = 'visible';
   modal.style.marginTop = '50px';

@@ -21,7 +21,7 @@
   }
   
   .item {
-    width: 70%;
+    width: 60%;
     display: inline-block;
     margin-top: 1rem;
     filter: grayscale(100%);
