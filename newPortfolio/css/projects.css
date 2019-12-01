@@ -1,11 +1,13 @@
 /* General */
 
+
 html {
     background-color: #5f45bb;
     background-image: linear-gradient(to bottom right, #180cac, #d054e4);
     color: #fff;
     cursor: pointer;
-    font-family: 'Montserrat', Verdana, Sans-Serif;
+    /* font-family: 'Montserrat', Verdana, Sans-Serif; */
+    font-family: "Montserrat", "Quicksand", sans-serif;
     font-size: 16px;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -17,7 +19,7 @@ html {
     display:flex;
     justify-content:space-around;
     align-items:center;
-       
+
 }
 
 .flex-container{

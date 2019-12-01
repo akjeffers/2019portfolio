@@ -102,3 +102,9 @@
    text-align: right;
    color: #000;
   }
+
+  #avatar {
+    width: 175px;
+    border-radius: 2%;
+   
+  }
