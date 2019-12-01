@@ -45,7 +45,7 @@
   }
   
   .modal {
-    position: absolute;
+    position: relative;
     /*must set position: relative for the body to remain behind the modal*/
     background-color: #3D3D3D;
     max-width: 600x;
@@ -69,6 +69,7 @@
     width: 24rem;
     border-radius: 0.5rem;
     font-family: "Montserrat", "Quicksand", sans-serif;
+  
    
   }
   
